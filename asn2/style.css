@@ -1,0 +1,193 @@
+body {
+    text-align: center;
+    background: #89793a;
+}
+
+#navigasi {
+    background-color: rgb(88, 68, 4);
+    text-align: center;
+}
+
+#navigasi a{
+    color : white;
+    display: inline-block;
+    font-size : 1,3rem;
+    margin: 0rem;
+}
+
+#navigasi a:hover {
+    color: black;
+}
+
+#profile {
+    background-image: url('https://i.pinimg.com/474x/da/51/2e/da512ebd04fc58a5449980038e762f61.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+}
+
+#profile img {
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#profile h1 {
+    color: rgb(245, 247, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#profile h5{
+    color:rgb(241, 168, 10);
+    font-size: 20px;
+    font-family: Cambria;
+}
+
+#profile p:nth-of-type(1) {
+    color: #f8f8f9;
+}
+
+#profile p:nth-of-type(2) {
+    color: #fefefe;
+}
+#profile a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#4b3d03
+}
+
+#profile a:hover {
+    color: white;
+}
+
+/*Page Contact*/
+#headcontact {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKl-UDE9I0VKqUNIxfrvKTWf26dzPBrV3MhQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+
+#headcontact h1 {
+    color: rgb(245, 247, 249);
+    font-family: Arial;
+}
+
+#contact {
+    text-align:justify;
+    display: inline-block;
+}
+
+#contact p:nth-of-type(1){
+    font-family: Times New Roman;
+    color:rgb(241, 239, 239);
+}
+
+/*Page About*/
+#headabout {
+    background-image: url('https://i.pinimg.com/474x/9b/75/e3/9b75e381a8a42decd96180657b496084.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+
+#headabout h1 {
+    color: rgb(18, 18, 19);
+    font-family: Arial;
+}
+
+#pendidikan {
+    text-align: center;
+    display: inline-block;
+}
+
+#keahlian,
+#portofolio {
+    text-align: justify;
+    display: inline-block;
+}
+
+
+#pendidikan h2,
+#keahlian h2,
+#portofolio h2 {
+    text-align: center;
+    margin-top: 0;
+    font-family: Arial;
+    color:#fefefe
+}
+
+
+#portofolio img {
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+iframe {
+    width: 220px;
+}
+
+
+#hobi{
+    text-align: center;
+    display: inline-block;
+}
+
+#tentang,
+#alamat {
+    text-align:center;
+    display: inline-block;
+}
+
+#tentang h2,
+#hobi h2,
+#alamat h2,
+#maps h2 {
+    color:#fefefe;
+    font-family: Arial,sans-serif;
+}
+
+#maps a{
+    color:#00000d;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin: 0;
+    display: inline-block;
+}
+
+#maps a:hover{
+    color:#fefefe;
+}
+
+/*Page Social Media*/
+#socialmedia{
+    background-image: url('https://i.pinimg.com/474x/0d/d7/31/0dd7311bab040caef36e1b1785709812.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+
+#socialmedia h1 {
+    font-family: 'Gill Sans';
+    color:#fefefe;
+    text-align: justify;
+    display: inline-block;
+}
+
+#sosmed a{
+    text-align:justify;
+    display: inline-block;
+    color:aliceblue;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+#sosmed a:hover{
+    color:#00000d;
+}
+#sosmed {
+    text-align:justify;
+    display: inline-block;
+    color:aliceblue;
+    font-family: 'Gill Sans', sans-serif;
+}
